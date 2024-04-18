@@ -32,12 +32,14 @@ main{
 
 #notes{
   display: flex; 
-  flex-wrap: wrap; 
-  justify-content: space-around; 
+  justify-content:center;
+  align-items: center;
+  margin-top: 5vh;
 }
 
-.card a{
+.card {
   text-decoration: none;
+  margin: 100px;
 }
 
 #modal-view{
@@ -61,7 +63,13 @@ main{
   width: 90vw;
 }
 
-#controls-note{
+#controls{
+  justify-content: center;
+  align-items: center;
   display:flex;
   gap:10px;
+}
+.cardBody{
+  background-color: rgb(134, 128, 128);
+  width: 100%;
 }
